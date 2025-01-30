@@ -1,0 +1,17 @@
+.wrap {
+    margin: 30px auto 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+}
+
+.disabled {
+    color: gray;
+}

@@ -1,0 +1,129 @@
+.modal {
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0px 0px 5px 5px gray;
+    padding: 10px 30px;
+    border-radius: 20px;
+    top: 20%;
+    left: calc(50% - 400px);
+    width: 800px;
+    height: 600px;
+    display: none;
+    flex-direction: column;
+}
+
+.isOpenModal {
+    display: flex;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 -30px;
+
+    span {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+.content {
+    flex-grow: 1;
+    overflow: auto;
+
+    h2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.card {
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dadada;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.left {
+    display: flex;
+    img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right {
+    i {
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+
+.title {
+    display: block;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.subtitle {
+    display: block;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.cancel {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(247, 98, 98);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(247, 68, 68);
+    }
+}
+
+
+.submit {
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(94, 204, 112);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+
+    &:hover {
+        background-color: rgb(52, 199, 77);;
+    }
+}
