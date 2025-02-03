@@ -1,0 +1,42 @@
+.card {
+
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(#cccccc, #f7f7f7,#f7f7f7,#f7f7f7, #cccccc);
+    box-shadow: 10px 5px 5px rgb(179, 179, 179);
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+
+    h3 {
+        text-align: center;
+    }
+}
+
+.btn_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+
+    span {
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+
+.btn {
+    i {
+        font-size: 20px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
